@@ -10,7 +10,7 @@ if (btnSubmit != null) {
         var txtIntro = document.forms['register-form']['intro'];
 
 
-        if (txtFullName != null && txtFullName.length<=50 && txtPhone != null) {
+        if (txtFullName != null)  {
             var fullName = txtFullName.value;
             var phone = txtPhone.value;
             var gender = selectGender.value;
